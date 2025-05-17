@@ -1,0 +1,28 @@
+# Bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode or other IDE metadata (optional)
+.vscode/
+.idea/
+
+# Optional: logs or outputs
+*.log
+
+# Optional: large generated output files
+*.csv
+*.png
+*.pdf

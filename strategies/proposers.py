@@ -96,7 +96,11 @@ class BinarySearchProposer(ProposerStrategy):
         self.last_offer = (min_offer + max_offer) / 2
 
     def propose(self, game, self_player):
-        self.last_offer = (self.low + self.high) / 2
+        if self.low == self.high:
+            self.last_offer = (self.low + self.high) / 2
+        else:
+            self.last_offer = (self.low + self.high) / 2 - .01
+
         return self.last_offer
 
     def receive_feedback(self, accepted, offer, game):

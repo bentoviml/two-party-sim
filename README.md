@@ -1,2 +1,3 @@
-Paper writeup: [Link Text](paper.pdf)
+[Paper Writeup](paper.pdf)
 
+[Simulations](notebooks) 
